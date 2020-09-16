@@ -1,3 +1,3 @@
-#mc866 machine learning projects
+# mc886 projects
 
-Separate machine learning projects for studying
+Separate machine learning projects
