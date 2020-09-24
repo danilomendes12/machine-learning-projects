@@ -40,27 +40,19 @@ def get_cost_for_b1(x, y, b_0, b_1):
 def print_result(x, y, b):
     print("Estimated coefficients:\na = {}  \nb = {}".format(b[0], b[1]))
 
-    # plotting the actual points as scatter plot 
     plt.scatter(x, y, color = "g", 
                marker = "o", s = 30) 
-  
-    # predicted response vector 
     y_pred = b[0] + b[1]*x 
-  
-    # plotting the regression line 
     plt.plot(x, y_pred, color = "b") 
-  
-    # putting labels 
     plt.xlabel('x') 
     plt.ylabel('y') 
   
-    # function to show plot 
     plt.show() 
   
 def main(): 
     # input 
-    x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]) 
-    y = np.array([1, 3, 2, 5, 7, 8, 8, 9, 10, 12])
+    x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    y = np.array([1, 3, 2, 4, 6, 5, 7, 9, 10, 12, 14])
 
     #calculate
     b = linear_regression(x, y) 
