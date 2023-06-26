@@ -1,3 +1,1 @@
-# mc886 projects
-
-Separate machine learning projects
+# projetos feitos para aprendizado de algoritmos de ML
