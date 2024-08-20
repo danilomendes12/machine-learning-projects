@@ -1,1 +1,2 @@
-from .linear_regression import linear_regression_two_features, print_result
+from .linear_regression_v2 import linear_regression_two_features
+from .polynomial_regression import polynomial_regression
