@@ -31,7 +31,7 @@ def linear_regression_two_features(x, y,
 
         previous_cost = cost
 
-    return a, b
+    print_result (x, y, (a, b))
 
 
 def print_result(x, y, b):
